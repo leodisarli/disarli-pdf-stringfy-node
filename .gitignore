@@ -1,0 +1,7 @@
+.npm
+.scannerwork
+.vscode
+example/output.txt
+jspm_packages/
+node_modules/
+npm-debug.log*

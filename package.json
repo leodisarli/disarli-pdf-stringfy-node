@@ -1,0 +1,46 @@
+{
+  "name": "pdf-stringfy",
+  "version": "1.0.0",
+  "description": "js module to extract texts from PDFs.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "node-ensure": "^0.0.0",
+    "pdfjs-dist": "^2.3.200"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.3"
+  },
+  "engines": {
+    "node": ">=6.8.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node node_modules/mocha/bin/_mocha --recursive --slow 10000",
+    "example": "node example/pdf-stringfy-example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leodisarli/disarli-pdf-stringfy-node.git"
+  },
+  "keywords": [
+    "node",
+    "pdf",
+    "text",
+    "stringfy",
+    "extract"
+  ],
+  "author": {
+    "name": "Leonardo Di Sarli",
+    "email": "leosarli@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leodisarli/disarli-pdf-stringfy-node/issues"
+  },
+  "homepage": "https://github.com/leodisarli/disarli-pdf-stringfy-node#readme"
+}
