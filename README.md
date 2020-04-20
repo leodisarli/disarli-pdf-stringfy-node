@@ -70,4 +70,4 @@ PdfStringfy(dataBuffer).then(function(data) {
 * Check [test folder](https://github.com/leodisarli/disarli-pdf-stringfy-node/master/test).
 
 ## License
-[MIT licensed](https://gitlab.com/autokent/pdf-parse/blob/master/LICENSE) and all it's dependencies are MIT or BSD licensed.
+[MIT licensed](https://opensource.org/licenses/MIT) and all it's dependencies are MIT or BSD licensed.

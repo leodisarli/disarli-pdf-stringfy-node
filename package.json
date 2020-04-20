@@ -1,10 +1,10 @@
 {
   "name": "pdf-stringfy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js module to extract texts from PDFs.",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
+    "lib": "src",
     "test": "test"
   },
   "dependencies": {
